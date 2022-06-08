@@ -1,10 +1,24 @@
+/* Объявим переменные */
 :root {
---logo-color: 
-text-color
-bg-color-main
-bg-color-secondary
-contact-color 
+--logo-color: #2196F3;
+--text-color: #212121 ;
+--bg-color-main: #2F303A ;
+--bg-color-secondary: #F5F4FA ;
+--contact-color: #757575 ;
+--foot-adress: rgba(255, 255, 255, 0.6);
 }
+
+/* глобальный стиль переменной */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+    color: var(--text-color);
+}
+.nopoint {
+    list-style: none;
+}
+
 
 .visually-hidden {
     position: absolute;
