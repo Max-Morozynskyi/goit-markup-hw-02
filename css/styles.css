@@ -173,3 +173,19 @@ body {
 .contact-link {
     color: var(--foot-adress);
 }
+
+/* END OF INDEX.HTML */
+
+
+/* START PORTFOLIO.HTML */
+
+.project-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-descrption {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: var(--ltr-spasing);
+}
