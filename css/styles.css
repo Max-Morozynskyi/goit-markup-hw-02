@@ -5,6 +5,7 @@
 --title-color: #212121;
 --text-color: #757575;
 --foot-adress: rgba(255, 255, 255, 0.6);
+--white-clr: white;
     /* bg clrs */
 --bg-clr-main: #2F303A;
 --bg-clr-secondary: #F5F4FA;
@@ -39,14 +40,17 @@ body {
 .button {
     font-family: inherit;
     font-size: 16px;
+    font-weight: 500;
+    
+    cursor: pointer;
 }
 .button:hover,
 .button:focus {
-    color: white;
+    color: var(--white-clr);
     background-color: var(--hover-btn);
 }
 .btn-active {
-    color: white;
+    color: var(--white-clr);
     background-color: var(--main-clr);
 }
 .btn-passive {
@@ -71,7 +75,7 @@ body {
     color: var(--title-color);
 }
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -108,15 +112,12 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--white-clr);
 }
 .hero-btn {
     line-height: 1.88;
-    align-items: center;
-    text-align: center;
+    font-weight: 700;
     letter-spacing: 0.06em;
-
-    cursor: pointer;
 }
 /* qualities section */
 .title-qualities {
@@ -142,7 +143,7 @@ body {
     background-color: var(--bg-clr-secondary);
 }
 .card {
-    background-color: white;
+    background-color: var(--white-clr);
     text-align: center;
     font-size: 16px;
     line-height: var(--box-height);
@@ -159,7 +160,7 @@ body {
     background-color: var(--bg-clr-main);
 }
 .bottom-studio {
-    color: white;
+    color: var(--white-clr);
 }
 .contact-info {
     font-style: inherit;
@@ -168,7 +169,7 @@ body {
     letter-spacing: var(--ltr-spasing);
 }
 .contact-address {
-    color: white;
+    color: var(--white-clr);
 }
 .contact-link {
     color: var(--foot-adress);
